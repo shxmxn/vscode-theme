@@ -1,0 +1,21 @@
+{
+    "name": "shxmxn-theme",
+    "displayName": "shxmxn-theme",
+    "description": "shxmxn styled theme for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "shxmxn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shxmxn-color-theme.json"
+            }
+        ]
+    }
+}
