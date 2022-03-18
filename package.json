@@ -2,6 +2,12 @@
     "name": "shxmxn-theme",
     "displayName": "shxmxn-theme",
     "description": "shxmxn styled theme for VS Code",
+    "publisher": "shxmxn",
+    "icon": "images/icon128x128.jpg",
+    "galleryBanner": {
+        "color": "#8a016b",
+        "theme": "dark"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.64.0"
@@ -17,5 +23,10 @@
                 "path": "./themes/shxmxn-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shxmxn/vscode-theme.git"
+    },
+    "homepage": "https://github.com/shxmxn/vscode-theme/blob/main/README.md"
 }
